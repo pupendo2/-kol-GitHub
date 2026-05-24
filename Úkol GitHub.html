@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pozdrav</title>
+</head>
+<body>
+
+    <h1>Zadej své jméno</h1>
+
+    <input id="jmeno" type="text" placeholder="Napiš jméno">
+    <button onclick="pozdrav()">Pozdravit</button>
+
+    <script>
+        function pozdrav() {
+            const jmeno = document.getElementById("jmeno").value;
+            alert("Ahoj " + jmeno + "!!!");
+        }
+    </script>
+
+</body>
+</html>
